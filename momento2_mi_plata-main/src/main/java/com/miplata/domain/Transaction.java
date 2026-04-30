@@ -3,7 +3,10 @@ package com.miplata.domain;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-
+/**
+ * Clase que representa una transacción bancaria.
+ * Movida al paquete 'domain' como parte de la reestructuración de paquetes.
+ */
 public class Transaction {
 
     // ===================== ATRIBUTOS =====================
@@ -85,3 +88,4 @@ public class Transaction {
                 getFormattedDateTime(), description, amount, balanceAfter);
     }
 }
+

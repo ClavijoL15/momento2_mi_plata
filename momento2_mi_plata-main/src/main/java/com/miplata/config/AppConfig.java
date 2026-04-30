@@ -1,5 +1,10 @@
 package com.miplata.config;
 
+/**
+ * Configuración global de la aplicación.
+ * PR3: Se agrega OVERDRAFT_PERCENTAGE para el sobregiro de cuenta corriente.
+ */
+
 public class AppConfig {
 
     public static final String BANK_NAME           = "Mi Plata";
