@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/momento2_mi_plata-main.iml" filepath="$PROJECT_DIR$/momento2_mi_plata-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiPlata.iml" filepath="$PROJECT_DIR$/MiPlata.iml" />
     </modules>
   </component>
 </project>
