@@ -75,3 +75,16 @@ public class Transaction {
 
     public String getTargetUser()                     { return targetUser; }
     public void setTargetUser(String targetUser)      { this.targetUser = targetUser; }
+
+    // ===================== MÉTODOS DE NEGOCIO =====================
+
+    public String getFormattedDateTime() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        return dateTime.format(formatter);
+    }
+
+    public void printInformation() {
+        System.out.printf("| %-19s | %-14s | %,12.2f | %,12.2f |%n",
+                getFormattedDateTime(), description, amount, balanceAfter);
+    }
+}
