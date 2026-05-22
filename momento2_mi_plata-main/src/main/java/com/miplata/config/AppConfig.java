@@ -1,5 +1,5 @@
-package com.miplata.config;
 
+package com.miplata.config;
 /**
  * Clase de configuración global de la aplicación.
  * Centraliza todas las constantes y parámetros configurables del sistema.
