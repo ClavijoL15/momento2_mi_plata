@@ -88,7 +88,7 @@ public class User {
 
     public void incrementLoginAttempts() {
         this.loginAttempts++;
-        if (this.loginAttempts >= AppConfig.MAX_ATTEMPTS) this.active = false;
+        if (this.loginAttempts >= AppConfig.MAX_LOGIN_ATTEMPTS) this.active = false;
     }
 
     public void resetLoginAttempts() { this.loginAttempts = 0; }
