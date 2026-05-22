@@ -88,4 +88,3 @@ public class Transaction {
                 getFormattedDateTime(), description, amount, balanceAfter);
     }
 }
-

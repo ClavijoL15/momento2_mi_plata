@@ -1,20 +1,21 @@
+
 package com.miplata.config;
-
 /**
- * Configuración global de la aplicación.
- * PR3: Se agrega OVERDRAFT_PERCENTAGE para el sobregiro de cuenta corriente.
+ * Clase de configuración global de la aplicación.
+ * Centraliza todas las constantes y parámetros configurables del sistema.
  */
-
 public class AppConfig {
 
-    public static final String BANK_NAME           = "Mi Plata";
-    public static final String BANK_VERSION        = "1.0.0";
-    public static final int MAX_ATTEMPTS = 3;
-    public static final double DEFAULT_BALANCE      = 0.0;
+    // ===================== CONFIGURACIÓN GENERAL =====================
+    public static final String BANK_NAME        = "Mi Plata";
+    public static final String BANK_VERSION     = "1.0.0";
 
-    // --- NUEVO PR3 ---
-    /** Porcentaje del saldo que se puede usar como sobregiro en cuenta corriente (20%). */
-    public static final double OVERDRAFT_PERCENTAGE = 0.20;
+    // ===================== CONFIGURACIÓN DE SEGURIDAD =====================
+    public static final int MAX_LOGIN_ATTEMPTS  = 3;
 
+    // ===================== CONFIGURACIÓN DE CUENTA =====================
+    public static final double DEFAULT_BALANCE  = 0.0;
+
+    // Constructor privado - clase utilitaria
     private AppConfig() {}
 }
